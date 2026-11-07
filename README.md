@@ -1,4 +1,22 @@
-# bloub
+# bloub × abutton
+
+> **Fork 声明 / Fork notice**
+> 本仓库 Fork 自 [jeremy-prt/bloub](https://github.com/jeremy-prt/bloub)，原项目版权归原作者所有，并沿用其 [LICENSE](LICENSE)。
+> 在原项目基础上，本 Fork 新增了 **abutton** —— 一颗会呼吸、会眨眼、会被按扁的“扣子”AI Agent 角色工作室。
+>
+> This repository is a fork of [jeremy-prt/bloub](https://github.com/jeremy-prt/bloub). All credit for the
+> original bloub avatar goes to its author; the original license applies. This fork adds **abutton**, a
+> button-shaped agent character studio.
+
+## abutton（本 Fork 新增）
+
+- 入口：`/abutton`（本地 `pnpm dev` 后访问 http://localhost:5190/abutton.html）
+- 源码：`src/abutton/`（独立入口 `abutton.html`，不影响原 bloub 页面）
+- 内容：多种扣子形状与材质配色、表情库、IDLE / GAZE / THINKING / SPEAKING / CLICK 五种 Agent 状态，以及参照 bloub 的调试面板（状态 / 外观 / 表情 / 调参）。
+
+---
+
+## 原项目 bloub（upstream）
 
 An SVG recreation of the x.ai bot avatar: **one filled black shape** that morphs
 between 14 states, **two white shapes** for the eyes that morph independently, on
